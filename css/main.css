@@ -1,0 +1,28 @@
+div{
+  display: inline-block;
+}
+.bg-coder1 {
+    width: 230px;
+     height: 250px;
+    background: url('../assets/img/css_sprites.png')  -10px -10px;;
+}
+.bg-coder2 {
+    width: 230px; height: 250px;
+    background: url('../assets/img/css_sprites.png') -330px -10px;
+}
+.bg-coder3 {
+    width: 230px; height: 250px;
+    background: url('../assets/img/css_sprites.png') -650px -10px;
+}
+.bg-coder4 {
+    width: 230px; height: 250px;
+    background: url('../assets/img/css_sprites.png') -10px -360px;
+}
+.bg-coder5 {
+    width: 230px; height: 250px;
+    background: url('../assets/img/css_sprites.png') -330px -360px;
+}
+.bg-coder6 {
+    width: 230px; height: 250px;
+    background: url('../assets/img/css_sprites.png') -650px -360px;
+}
