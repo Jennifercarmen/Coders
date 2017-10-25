@@ -1,28 +1,83 @@
-div{
+header{
+height: 80px;
+}
+  div{
   display: inline-block;
+}
+hr {
+    height: 3px;
+    width: 80px;
+    border-width: 0;
+    background-color: #474747;
+    margin: 5px 0 20px 12px;
+    float: left;
+}
+p{
+  font-weight: bold;
+  color: white;
+}
+.container{
+  width: 900px;
+}
+.bg-coder1 p{
+  position: absolute;
+  top: 278px;
+  margin-bottom: 5px;
+  left: 120px;
+}
+.bg-coder2 p{
+  position: absolute;
+  top: 278px;
+  left:360px;
+
+  margin-bottom: 5px;
+}
+.bg-coder3 p{
+  position: absolute;
+  top: 278px;
+  left: 620px;
+  margin-bottom: 5px;
+}
+.bg-coder4 p{
+  position: absolute;
+  top: 535px;
+  left: 120px;
+  margin-bottom: 5px;
+}
+.bg-coder5 p{
+  position: absolute;
+  top: 535px;
+  left: 360px;
+  margin-bottom: 5px;
+}
+.bg-coder6 p{
+  position: absolute;
+  top: 535px;
+  left: 600px;
+  margin-bottom: 5px;
 }
 .bg-coder1 {
     width: 230px;
      height: 250px;
-    background: url('../assets/img/css_sprites.png')  -10px -10px;;
+     background: url('../assets/img/css_sprites.png') -34px -34px;
 }
 .bg-coder2 {
     width: 230px; height: 250px;
-    background: url('../assets/img/css_sprites.png') -330px -10px;
+    background: url('../assets/img/css_sprites.png') -402px -34px;
 }
 .bg-coder3 {
     width: 230px; height: 250px;
-    background: url('../assets/img/css_sprites.png') -650px -10px;
+    background: url('../assets/img/css_sprites.png') -770px -34px;
 }
 .bg-coder4 {
     width: 230px; height: 250px;
-    background: url('../assets/img/css_sprites.png') -10px -360px;
+    background: url('../assets/img/css_sprites.png') -34px -432px;
 }
 .bg-coder5 {
     width: 230px; height: 250px;
-    background: url('../assets/img/css_sprites.png') -330px -360px;
+    background: url('../assets/img/css_sprites.png') -402px -432px;
 }
 .bg-coder6 {
     width: 230px; height: 250px;
-    background: url('../assets/img/css_sprites.png') -650px -360px;
+    background: url('../assets/img/css_sprites.png')  -770px -432px;
 }
